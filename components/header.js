@@ -1,6 +1,8 @@
+import "../app/globals.css";
+
 export default function Header() {
     return (
-      <header className="container flex justify-between bg-lime-700">
+      <header className="container">
 
         <img src="/logo-ac.png" alt="Animal Crossing Logo 2" className="object-contain h-20 w-20" />
         <img src="/ac.png" alt="Animal Crossing logo" className="object-contain h-60 w-100" />
