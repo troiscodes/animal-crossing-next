@@ -17,3 +17,7 @@ header {
     left: 70%;
     transform: translate(-50%, -50%);
 }
+
+.img_hero {
+    width: 100%;
+}
