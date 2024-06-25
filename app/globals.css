@@ -17,3 +17,17 @@ header {
     left: 70%;
     transform: translate(-50%, -50%);
 }
+
+.image-header-1 {
+    width : 100%;
+    height : 100%;
+    max-width : 100px;
+    max-height : 100px;
+}
+
+.image-header-2 {
+    width : 100%;
+    height : 100%;
+    max-width : 450px;
+    max-height : 450px;
+}

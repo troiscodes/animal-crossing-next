@@ -1,17 +1,15 @@
 export default function Header() {
-    return (
-      <header className="container flex justify-between bg-lime-700">
-
-        <img src="/logo-ac.png" alt="Animal Crossing Logo 2" className="object-contain h-20 w-20" />
-        <img src="/ac.png" alt="Animal Crossing logo" className="object-contain h-60 w-100" />
-
-        <div className="flex justify-center">
-          <a className="text-sm" href="">Accueil</a>
-          <span className="mx-1" />
-          <a className="text-sm" href="">Personnages</a>
-          <span className="mx-1" />
-          <a className="text-sm" href="">Jeux</a>
-        </div>
-      </header>
+  return (
+    <header className="container flex justify-between bg-lime-700">
+  
+  <img src="/logo-ac.png" alt="Animal Crossing Logo 2" class="image-header-1" />
+          <img src="/ac.png" alt="Animal Crossing logo" class="image-header-2" />
+  
+          <div style={{ display: 'flex', gap: 10, color: "white", paddingRight: "20px" }}>
+            <a href="">Accueil</a>
+            <a href="">Personnages</a>
+            <a href="">Jeux</a>
+          </div>
+        </header>
     );
- }
+  }
