@@ -2,7 +2,9 @@ export default function Footer(){
 
     return (
         <footer>
-            <div className="w-full h-2 bg-[#3FA367]"></div>
+           <div className="w-full h-2 bg-[#3FA367]" style={{
+                boxShadow: "0 -4px 6px -1px rgba(0, 0, 0, 0.5)"
+            }}></div>
             <div className="flex bg-[#417C12] h-[200px] w-full p-[10px] items-center justify-between">
                 <div className="w-[308px]"><img className="w-[160px] h-[160px] flex justify-self-start" src="logo-ac.png" alt="logo Animal Crossing feuille"/></div>
                 <div className="w-auto"><h1 className="text-white text-[40px]">Animal Crossing</h1></div>
