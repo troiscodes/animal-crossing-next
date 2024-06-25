@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-header {
-    display: flex;
-    background-color: #417C12;
-    justify-content: space-between;
-}
-
 .hero {
     text-align: center;
     position: absolute;
@@ -20,19 +14,7 @@ header {
 .img_hero {
     width: 100%;
 }
-.image-header-1 {
-    width : 100%;
-    height : 100%;
-    max-width : 100px;
-    max-height : 100px;
-}
 
-.image-header-2 {
-    width : 100%;
-    height : 100%;
-    max-width : 450px;
-    max-height : 450px;
-}
 .div_footer {
     height: 300px;
     width: 100%;
