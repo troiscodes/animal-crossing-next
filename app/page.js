@@ -6,7 +6,7 @@ import Games from "../components/games";
 
 export default function Home() {
   return (
-    <main className="flex flex-col">
+    <main className="flex flex-col bg-red-500">
       
       <Hero></Hero>
 

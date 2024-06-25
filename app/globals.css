@@ -21,3 +21,36 @@ header {
 .img_hero {
     width: 100%;
 }
+
+.div_footer {
+    height: 300px;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    background-color: #417C12;
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-ac {
+    width: 160px;
+    height: 160px;
+}
+
+.text_footer {
+    color: white;
+    background-color: aqua;
+    font-size: 40px;
+    align-content: center;
+    width: auto;
+}
+
+.text_footer_2 {
+    color: white;
+    align-self: flex-end;
+}
