@@ -6,7 +6,9 @@ export default function Header() {
     <header>
       <section className="bg-lime-700 flex justify-between relative h-40">
         <div>
-          <Image src="/logo-ac.png" alt="Animal Crossing Logo 2" width={150} height={100} className="object-scale-down absolute items-center h-30" />
+          <a href="/">
+          <Image src="/logo-ac.png" alt="Animal Crossing Logo 2" width={150} height={100} className="object-scale-down absolute items-center h-30 hover:opacity-80" />
+          </a>
         </div>
         <div className="text-white flex space-x-4 items-center text-xl pr-9 font-fink-heavy ">
           <Link href="/" className="hover:underline">Accueil</Link>
