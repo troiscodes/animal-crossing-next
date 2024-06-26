@@ -8,7 +8,7 @@ export default function Header() {
         <div>
           <Image src="/logo-ac.png" alt="Animal Crossing Logo 2" width={150} height={100} className="object-scale-down absolute items-center h-30" />
         </div>
-        <div className="text-white flex space-x-4 items-center text-xl pr-9">
+        <div className="text-white flex space-x-4 items-center text-xl pr-9 font-fink-heavy">
           <Link href="/">Accueil</Link>
           <Link href="/personnages">Personnages</Link>
           <Link href="/jeux">Jeux</Link>
