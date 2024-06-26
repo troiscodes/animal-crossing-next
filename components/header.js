@@ -10,7 +10,7 @@ export default function Header() {
           <Image src="/logo-ac.png" alt="Animal Crossing Logo 2" width={150} height={100} className="object-scale-down absolute items-center h-30 hover:opacity-80" />
           </a>
         </div>
-        <div className="text-white flex space-x-4 items-center text-xl pr-9 font-fink-heavy ">
+        <div className="text-white flex space-x-4 items-center text-xl pr-9 font-fink-heavy">
           <Link href="/" className="hover:underline">Accueil</Link>
           <Link href="/personnages" className="hover:underline" >Personnages</Link>
           <Link href="/jeux" className="hover:underline">Jeux</Link>
