@@ -6,7 +6,7 @@ export default function Games(){
         <section style={{ backgroundImage: "url('/background_section_games.png') " }} className="min-h-[1036.87px] relative">
                 <div className="h-[114.51px] w-full flex justify-center pt-14">
                 <div className="h-[114.51px] w-[335.75px] bg-[#F5FFE4] drop-shadow-xl -rotate-3">
-                    <h1 className="flex justify-center items-center h-[114px] w-[335] text-3xl">Jeux principaux</h1>
+                    <h1 className="flex justify-center items-center h-[114px] w-[335] text-3xl font-fink-heavy">Jeux principaux</h1>
                     </div>
                 </div>
 
