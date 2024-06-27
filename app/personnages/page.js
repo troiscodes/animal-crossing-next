@@ -15,9 +15,9 @@ export default function Home(){
               <div className="backdrop-blur-sm w-[703px] h-[329px] rounded-3xl drop-shadow-3xl">
         <div className="flex items-center w-[703px] h-[329px] rounded-3xl bg-[#73EED4] bg-opacity-30">
             <div className="p-5 w-[703px] h-[329px] rounded-3xl flex items-start flex-col justify-center text-center text-2xl drop-shadow-xl">
-            <div className="opacity- text-black font-fink-heavy">Description :</div>
-            <div className="opacity-100 text-black font-fink-heavy">Fonction :</div>
-            <div className="opacity-100 text-black font-fink-heavy">Ce qu’il nous apprend :</div>
+            <div className="opacity-100 text-black font-fink-heavy">Description : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
+            <div className="opacity-100 text-black font-fink-heavy">Fonction : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
+            <div className="opacity-100 text-black font-fink-heavy">Ce qu’il nous apprend : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
             </div>
             </div>
             </div>
@@ -42,9 +42,9 @@ export default function Home(){
               <div className="backdrop-blur-sm w-[703px] h-[329px] rounded-3xl drop-shadow-3xl">
         <div className="flex items-center w-[703px] h-[329px] rounded-3xl bg-[#9AB536] bg-opacity-30">
             <div className="p-5 w-[703px] h-[329px] rounded-3xl flex items-start flex-col justify-center text-center text-2xl drop-shadow-xl">
-            <div className="opacity- text-black font-fink-heavy">Description :</div>
-            <div className="opacity-100 text-black font-fink-heavy">Fonction :</div>
-            <div className="opacity-100 text-black font-fink-heavy">Ce qu’il nous apprend :</div>
+            <div className="opacity-100 text-black font-fink-heavy">Description : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
+            <div className="opacity-100 text-black font-fink-heavy">Fonction : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
+            <div className="opacity-100 text-black font-fink-heavy">Ce qu’il nous apprend : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
             </div>
             </div>
             </div>
@@ -69,9 +69,9 @@ export default function Home(){
               <div className="backdrop-blur-sm w-[703px] h-[329px] rounded-3xl drop-shadow-3xl">
         <div className="flex items-center w-[703px] h-[329px] rounded-3xl bg-[#FDB30F] bg-opacity-30">
             <div className="p-5 w-[703px] h-[329px] rounded-3xl flex items-start flex-col justify-center text-center text-2xl drop-shadow-xl">
-            <div className="opacity- text-black font-fink-heavy">Description :</div>
-            <div className="opacity-100 text-black font-fink-heavy">Fonction :</div>
-            <div className="opacity-100 text-black font-fink-heavy">Ce qu’il nous apprend :</div>
+            <div className="opacity-100 text-black font-fink-heavy">Description : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
+            <div className="opacity-100 text-black font-fink-heavy">Fonction : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
+            <div className="opacity-100 text-black font-fink-heavy">Ce qu’il nous apprend : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
             </div>
             </div>
             </div>
@@ -96,9 +96,9 @@ export default function Home(){
               <div className="backdrop-blur-sm w-[703px] h-[329px] rounded-3xl drop-shadow-3xl">
         <div className="flex items-center w-[703px] h-[329px] rounded-3xl bg-[#B4447C] bg-opacity-30">
             <div className="p-5 w-[703px] h-[329px] rounded-3xl flex items-start flex-col justify-center text-center text-2xl drop-shadow-xl">
-            <div className="opacity- text-black font-fink-heavy">Description :</div>
-            <div className="opacity-100 text-black font-fink-heavy">Fonction :</div>
-            <div className="opacity-100 text-black font-fink-heavy">Ce qu’il nous apprend :</div>
+            <div className="opacity-100 text-black font-fink-heavy">Description : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
+            <div className="opacity-100 text-black font-fink-heavy">Fonction : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
+            <div className="opacity-100 text-black font-fink-heavy">Ce qu’il nous apprend : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
             </div>
             </div>
             </div>
@@ -124,9 +124,9 @@ export default function Home(){
               <div className="backdrop-blur-sm w-[703px] h-[329px] rounded-3xl drop-shadow-3xl">
         <div className="flex items-center w-[703px] h-[329px] rounded-3xl bg-[#73EED4] bg-opacity-30">
             <div className="p-5 w-[703px] h-[329px] rounded-3xl flex items-start flex-col justify-center text-center text-2xl drop-shadow-xl">
-            <div className="opacity- text-black font-fink-heavy">Description :</div>
-            <div className="opacity-100 text-black font-fink-heavy">Fonction :</div>
-            <div className="opacity-100 text-black font-fink-heavy">Ce qu’il nous apprend :</div>
+            <div className="opacity-100 text-black font-fink-heavy">Description : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
+            <div className="opacity-100 text-black font-fink-heavy">Fonction : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
+            <div className="opacity-100 text-black font-fink-heavy">Ce qu’il nous apprend : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
             </div>
             </div>
             </div>
@@ -151,9 +151,9 @@ export default function Home(){
               <div className="backdrop-blur-sm w-[703px] h-[329px] rounded-3xl drop-shadow-3xl">
         <div className="flex items-center w-[703px] h-[329px] rounded-3xl bg-[#9AB536] bg-opacity-30">
             <div className="p-5 w-[703px] h-[329px] rounded-3xl flex items-start flex-col justify-center text-center text-2xl drop-shadow-xl">
-            <div className="opacity- text-black font-fink-heavy">Description :</div>
-            <div className="opacity-100 text-black font-fink-heavy">Fonction :</div>
-            <div className="opacity-100 text-black font-fink-heavy">Ce qu’il nous apprend :</div>
+            <div className="opacity-100 text-black font-fink-heavy">Description : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
+            <div className="opacity-100 text-black font-fink-heavy">Fonction : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
+            <div className="opacity-100 text-black font-fink-heavy">Ce qu’il nous apprend : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
             </div>
             </div>
             </div>
@@ -178,9 +178,9 @@ export default function Home(){
               <div className="backdrop-blur-sm w-[703px] h-[329px] rounded-3xl drop-shadow-3xl">
         <div className="flex items-center w-[703px] h-[329px] rounded-3xl bg-[#FDB30F] bg-opacity-30">
             <div className="p-5 w-[703px] h-[329px] rounded-3xl flex items-start flex-col justify-center text-center text-2xl drop-shadow-xl">
-            <div className="opacity- text-black font-fink-heavy">Description :</div>
-            <div className="opacity-100 text-black font-fink-heavy">Fonction :</div>
-            <div className="opacity-100 text-black font-fink-heavy">Ce qu’il nous apprend :</div>
+            <div className="opacity-100 text-black font-fink-heavy">Description : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
+            <div className="opacity-100 text-black font-fink-heavy">Fonction : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
+            <div className="opacity-100 text-black font-fink-heavy">Ce qu’il nous apprend : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
             </div>
             </div>
             </div>
@@ -205,9 +205,9 @@ export default function Home(){
               <div className="backdrop-blur-sm w-[703px] h-[329px] rounded-3xl drop-shadow-3xl">
         <div className="flex items-center w-[703px] h-[329px] rounded-3xl bg-[#B4447C] bg-opacity-30">
             <div className="p-5 w-[703px] h-[329px] rounded-3xl flex items-start flex-col justify-center text-center text-2xl drop-shadow-xl">
-            <div className="opacity- text-black font-fink-heavy">Description :</div>
-            <div className="opacity-100 text-black font-fink-heavy">Fonction :</div>
-            <div className="opacity-100 text-black font-fink-heavy">Ce qu’il nous apprend :</div>
+            <div className="opacity-100 text-black font-fink-heavy">Description : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
+            <div className="opacity-100 text-black font-fink-heavy">Fonction : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
+            <div className="opacity-100 text-black font-fink-heavy">Ce qu’il nous apprend : Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi.</div>
             </div>
             </div>
             </div>
