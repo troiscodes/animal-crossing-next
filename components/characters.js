@@ -3,15 +3,15 @@ export default function Characters(){
     return (
         <section>
             <div
-      className="bg-cover bg-center min-h-[1579px] w-full"
+      className="bg-cover bg-center md:min-h-[1579px] min-h-[4050px] w-full"
       style={{ backgroundImage: "url('/background_section_characters.jpeg')" }}>
                 <div className="container w-full h-[1625px] p-14 flex flex-col">
                 <div className="h-[114.51px] w-full flex justify-center">
-                <div className="h-[114.51px] w-[398.75px] bg-[#F5FFE4] drop-shadow-xl -rotate-3">
-                    <h1 className="flex justify-center items-center h-[114px] w-[398px] text-3xl font-fink-heavy">Personnages principaux</h1>
+                <div className="md:h-[114.51px] md:w-[398.75px] h-[100px] w-[330px] bg-[#F5FFE4] drop-shadow-xl -rotate-3">
+                    <h1 className="flex justify-center items-center md:h-[114px] md:w-[398px] h-[100px] w-[330px] md:text-3xl text-2xl font-fink-heavy">Personnages principaux</h1>
                 </div>
                 </div>
-                <div className="h-[1579px] w-full grid grid-cols-3 grid-rows-3 my-20">
+                <div className="md:h-[1579px] h-[4000px] w-full grid md:grid-cols-3 md:grid-rows-3 grid-cols-1 my-14">
                     <div className="rounded-2xl h-[400px] w-[300px] self-start place-self-center drop-shadow-xl flex items-center justify-center transition-transform ease-in-out hover:scale-125"><a href="/personnages"><img src="Tom_Nook_card.png" alt="Tom Nook" className="h-[365px] w-[260px] rounded-2xl"/></a></div>
                     <div className="rounded-2xl h-[400px] w-[300px] self-start place-self-center drop-shadow-xl flex items-center justify-center transition-transform ease-in-out hover:scale-125"><a href="/personnages"><img src="Freres_Nook_card.png" alt="Freres Nook" className="h-[365px] w-[260px] rounded-2xl"/></a></div>
                     <div className="rounded-2xl h-[400px] w-[300px] self-start place-self-center drop-shadow-xl flex items-center justify-center transition-transform ease-in-out hover:scale-125"><a href="/personnages"><img src="Thibou_card.png" alt="Thibou" className="h-[365px] w-[260px] rounded-2xl"/></a></div>
@@ -30,8 +30,8 @@ export default function Characters(){
                         </div>
                 </div>
                 </div>
-                <div className="h-2 w-full bg-[#3FA367] items-center drop-shadow"></div>
                 </div>
+                <div className="h-2 w-full bg-[#3FA367] flex place-self-end drop-shadow"></div>
         </section>
     )
 }
