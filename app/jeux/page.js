@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <main className="font-fink-heavy">
       <div style={{ backgroundImage: "url('/fond-games.png')" }}>
+      
         <section className="flex items-center md:pt-16" id="gamecube">
           <div className="md:flex items-center">
             <div>
@@ -17,8 +18,8 @@ export default function Home() {
               className="relative text-2xl ml-6 mr-6 pt-4 pl-6 pr-6 flex md:w-full md:min-h-[357px] rounded-3xl"
               style={{ backgroundColor: "rgba(111, 238, 40, 0.3)" }}
             >
-              <div className="grid md:grid-cols-2">
-                <div className="relative md:col-span-1 flex items-center pb-4">
+              <div className="">
+                <div className="relative flex items-center pb-4 md:pr-[330px]">
                   Dans ce jeu, le joueur emménage dans un village de campagne
                   habité par des animaux aux caractères bien distincts. Il
                   introduit un nouveau type de jeu dérivé du collect them up :
@@ -30,7 +31,7 @@ export default function Home() {
                   mois et les saisons. Il est également possible de fêter Noël
                   et tous les autres événements avec les villageois.
                 </div>
-                <div className=" md:col-span-1 bg-cyan-500"> 
+                <div className=""> 
                   <Image
                     src="/jeu-gamecube-image.png"
                     width={350}
@@ -43,20 +44,20 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="flex items-center md:pt-8" id="ds">
+        <section className="flex items-center md:pt-16" id="gamecube">
           <div className="md:flex items-center">
             <div>
               <img
                 src="/jeu-ds.png"
-                className="pt-12 pl-7 pb-6 container flex justify-center"
+                className="pt-20 pl-7 pb-6 container flex justify-center"
               ></img>
             </div>
             <div
               className="relative text-2xl ml-6 mr-6 pt-4 pl-6 pr-6 flex md:w-full md:min-h-[357px] rounded-3xl"
               style={{ backgroundColor: "rgba(111, 238, 40, 0.3)" }}
             >
-              <div className="grid md:grid-cols-7">
-                <div className="relative md:col-span-5 flex items-center pb-4">
+              <div className="">
+                <div className="relative flex items-center pb-4 md:pr-[340px]">
                   Dans ce jeu, le joueur emménage dans un village de campagne
                   habité par des animaux aux caractères bien distincts. Il
                   introduit un nouveau type de jeu dérivé du collect them up :
@@ -68,12 +69,12 @@ export default function Home() {
                   mois et les saisons. Il est également possible de fêter Noël
                   et tous les autres événements avec les villageois.
                 </div>
-                <div className=" md:col-span-1">
+                <div className=""> 
                   <Image
                     src="/jeu-ds-image.png"
                     width={350}
                     height={100}
-                    className="md:absolute bottom-0 right-0"
+                    className="md:absolute bottom-0 right-0 "
                   />
                 </div>
               </div>
@@ -81,20 +82,20 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="flex items-center md:pt-8" id="wii">
+        <section className="flex items-center md:pt-16" id="gamecube">
           <div className="md:flex items-center">
             <div>
               <img
                 src="/jeu-wii.png"
-                className="pt-12 pl-7 pb-6 container flex justify-center"
+                className="pt-20 pl-7 pb-6 container flex justify-center"
               ></img>
             </div>
             <div
               className="relative text-2xl ml-6 mr-6 pt-4 pl-6 pr-6 flex md:w-full md:min-h-[357px] rounded-3xl"
               style={{ backgroundColor: "rgba(111, 238, 40, 0.3)" }}
             >
-              <div className="grid md:grid-cols-7">
-                <div className="relative md:col-span-5 flex items-center pb-4">
+              <div className="">
+                <div className="relative flex items-center pb-4 md:pr-[330px]">
                   Dans ce jeu, le joueur emménage dans un village de campagne
                   habité par des animaux aux caractères bien distincts. Il
                   introduit un nouveau type de jeu dérivé du collect them up :
@@ -106,12 +107,12 @@ export default function Home() {
                   mois et les saisons. Il est également possible de fêter Noël
                   et tous les autres événements avec les villageois.
                 </div>
-                <div className=" md:col-span-1">
+                <div className=" "> 
                   <Image
                     src="/jeu-wii-image.png"
                     width={350}
                     height={100}
-                    className="md:absolute bottom-0 right-0"
+                    className="md:absolute bottom-0 right-0 "
                   />
                 </div>
               </div>
@@ -119,20 +120,20 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="flex items-center md:pt-8" id="3ds">
+        <section className="flex items-center md:pt-16" id="gamecube">
           <div className="md:flex items-center">
             <div>
               <img
                 src="/jeu-3ds.png"
-                className="pt-12 pl-7 pb-6 container flex justify-center"
+                className="pt-20 pl-7 pb-6 container flex justify-center"
               ></img>
             </div>
             <div
               className="relative text-2xl ml-6 mr-6 pt-4 pl-6 pr-6 flex md:w-full md:min-h-[357px] rounded-3xl"
               style={{ backgroundColor: "rgba(111, 238, 40, 0.3)" }}
             >
-              <div className="grid md:grid-cols-7">
-                <div className="relative md:col-span-5 flex items-center pb-4">
+              <div className="">
+                <div className="relative flex items-center pb-4 md:pr-[330px]">
                   Dans ce jeu, le joueur emménage dans un village de campagne
                   habité par des animaux aux caractères bien distincts. Il
                   introduit un nouveau type de jeu dérivé du collect them up :
@@ -144,12 +145,12 @@ export default function Home() {
                   mois et les saisons. Il est également possible de fêter Noël
                   et tous les autres événements avec les villageois.
                 </div>
-                <div className=" md:col-span-1">
+                <div className=" "> 
                   <Image
                     src="/jeu-3ds-image.png"
                     width={350}
                     height={100}
-                    className="md:absolute bottom-0 right-0"
+                    className="md:absolute bottom-0 right-0 "
                   />
                 </div>
               </div>
@@ -157,20 +158,20 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="flex items-center md:pt-8" id="switch">
-          <div className="md:flex items-center mb-5">
+        <section className="flex items-center md:pt-16" id="gamecube">
+          <div className="md:flex items-center">
             <div>
               <img
                 src="/jeu-switch.png"
-                className="pt-12 pl-7 pb-6 container flex justify-center"
+                className="pt-20 pl-7 pb-6 container flex justify-center"
               ></img>
             </div>
             <div
               className="relative text-2xl ml-6 mr-6 pt-4 pl-6 pr-6 flex md:w-full md:min-h-[357px] rounded-3xl"
               style={{ backgroundColor: "rgba(111, 238, 40, 0.3)" }}
             >
-              <div className="grid md:grid-cols-7">
-                <div className="relative md:col-span-5 flex items-center pb-4">
+              <div className="">
+                <div className="relative flex items-center pb-4 md:pr-80">
                   Dans ce jeu, le joueur emménage dans un village de campagne
                   habité par des animaux aux caractères bien distincts. Il
                   introduit un nouveau type de jeu dérivé du collect them up :
@@ -182,18 +183,19 @@ export default function Home() {
                   mois et les saisons. Il est également possible de fêter Noël
                   et tous les autres événements avec les villageois.
                 </div>
-                <div className=" md:col-span-1">
+                <div className=""> 
                   <Image
                     src="/jeu-switch-image.png"
                     width={350}
                     height={100}
-                    className="md:absolute bottom-0 right-0"
+                    className="md:absolute bottom-0 right-0 "
                   />
                 </div>
               </div>
             </div>
           </div>
         </section>
+
       </div>
     </main>
   );
