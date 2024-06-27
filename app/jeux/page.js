@@ -17,8 +17,8 @@ export default function Home() {
               className="relative text-2xl ml-6 mr-6 pt-4 pl-6 pr-6 flex md:w-full md:min-h-[357px] rounded-3xl"
               style={{ backgroundColor: "rgba(111, 238, 40, 0.3)" }}
             >
-              <div className="grid md:grid-cols-7">
-                <div className="relative md:col-span-5 flex items-center pb-4">
+              <div className="grid md:grid-cols-2">
+                <div className="relative md:col-span-1 flex items-center pb-4">
                   Dans ce jeu, le joueur emménage dans un village de campagne
                   habité par des animaux aux caractères bien distincts. Il
                   introduit un nouveau type de jeu dérivé du collect them up :
@@ -30,12 +30,12 @@ export default function Home() {
                   mois et les saisons. Il est également possible de fêter Noël
                   et tous les autres événements avec les villageois.
                 </div>
-                <div className=" md:col-span-1">
+                <div className=" md:col-span-1 bg-cyan-500"> 
                   <Image
                     src="/jeu-gamecube-image.png"
                     width={350}
                     height={100}
-                    className="md:absolute bottom-0 right-0"
+                    className="md:absolute bottom-0 right-0 "
                   />
                 </div>
               </div>
