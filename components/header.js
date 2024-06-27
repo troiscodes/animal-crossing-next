@@ -4,20 +4,20 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header>
-      <section className="bg-lime-700 flex justify-between relative h-40">
+      <section className="bg-lime-700 flex justify-between relative md:h-40 h-28 w-full items-center  pl-3">
         <div>
           <a href="/">
-          <Image src="/logo-ac.png" alt="Animal Crossing Logo 2" width={150} height={100} className="object-scale-down absolute items-center h-30 hover:opacity-80" />
+          <img src="/logo-ac.png" alt="Animal Crossing Logo 2" className="relative md:h-[150px] md:w-[150px] h-[100px] w-[100px] hover:opacity-80" />
           </a>
         </div>
-        <div className="text-white flex space-x-4 items-center text-xl pr-9 font-fink-heavy">
+        <div className="text-white flex flex-col md:flex-row space-x-4 items-end md:text-xl text-lg md:pr-9 pr-5 font-fink-heavy">
           <Link href="/" className="hover:underline">Accueil</Link>
           <Link href="/personnages" className="hover:underline" >Personnages</Link>
           <Link href="/jeux" className="hover:underline">Jeux</Link>
         </div>
       </section>
       <div className="border-4 border-[#16a34a] drop-shadow"></div>
-      <div className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 top-28 ">
+      <div className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 md:top top-[120px]">
         <Image src="/ac.png" alt="Animal Crossing logo" width={300} height={10}/>
       </div>
     </header>
