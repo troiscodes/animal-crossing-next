@@ -8,7 +8,7 @@ export default function Characters(){
                 <div className="container w-full h-[1625px] p-14 flex flex-col">
                 <div className="h-[114.51px] w-full flex justify-center">
                 <div className="md:h-[114.51px] md:w-[398.75px] h-[100px] w-[330px] bg-[#F5FFE4] drop-shadow-xl -rotate-3">
-                    <h1 className="flex justify-center items-center md:h-[114px] md:w-[398px] h-[100px] w-[330px] md:text-3xl text-2xl font-fink-heavy">Personnages principaux</h1>
+                    <a className="flex justify-center items-center md:h-[114px] md:w-[398px] h-[100px] w-[330px] md:text-3xl text-2xl font-fink-heavy" href="/personnages">Personnages principaux</a>
                 </div>
                 </div>
                 <div className="md:h-[1579px] h-[4000px] w-full grid md:grid-cols-3 md:grid-rows-3 grid-cols-1 gap-5 my-14">

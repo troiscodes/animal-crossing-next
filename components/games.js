@@ -6,7 +6,7 @@ export default function Games(){
         <section style={{ backgroundImage: "url('/background_section_games.png') " }} className="md:min-h-[1036.87px] min-h-[1900px]">
                 <div className="h-[114.51px] w-full flex flex-col justify-start items-center pt-14">
                 <div className="md:h-[114.51px] md:w-[398.75px] h-[100px] w-[330px] bg-[#F5FFE4] drop-shadow-xl -rotate-3">
-                    <h1 className="flex justify-center items-center md:h-[114px] md:w-[398px] h-[100px] w-[330px] text-3xl font-fink-heavy">Jeux principaux</h1>
+                    <a className="flex justify-center items-center md:h-[114px] md:w-[398px] h-[100px] w-[330px] text-3xl font-fink-heavy" href="/jeux">Jeux principaux</a>
                     </div>
 
             <div className="container w-full grid md:grid-cols-3 grid-cols-1 place-items-center pt-14 md:pt-8 px-10 md:mt-10 md:gap-14 gap-10 md:m-5">

@@ -17,7 +17,7 @@ export default function Header() {
         </div>
       </section>
       <div className="border-4 border-[#16a34a] drop-shadow"></div>
-      <div className="absolute left-1/2 -translate-x-1/2 -translate-y-1/2 md:top top-[120px]">
+      <div className="absolute z-10 left-1/2 -translate-x-1/2 -translate-y-1/2 md:top top-[120px]">
         <Image src="/ac.png" alt="Animal Crossing logo" width={300} height={10}/>
       </div>
     </header>
