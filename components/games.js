@@ -9,7 +9,7 @@ export default function Games(){
                     <h1 className="flex justify-center items-center md:h-[114px] md:w-[398px] h-[100px] w-[330px] text-3xl font-fink-heavy">Jeux principaux</h1>
                     </div>
 
-            <div className="container w-full grid md:grid-cols-3 grid-cols-1 place-items-center pt-14 px-10 md:mt-10 md:gap-14 gap-10 md:m-5">
+            <div className="container w-full grid md:grid-cols-3 grid-cols-1 place-items-center pt-14 md:pt-8 px-10 md:mt-10 md:gap-14 gap-10 md:m-5">
                 <div>
                 <a href="/jeux">
                     <img src="/animal_crossing.png" className="transition-transform ease-in-out hover:scale-110 rounded-full md:h-[350px] md:w-[350px] h-[300px] w-[300px]"/>
@@ -27,7 +27,7 @@ export default function Games(){
                 </div>
                 </div>
 
-                <div className="container place-items-center grid md:grid-cols-2 grid-cols-1 w-full md:px-48 pt-10 px-10 md:gap-5 gap-10 md:m-10">
+                <div className="container place-items-center grid md:grid-cols-2 grid-cols-1 w-full md:px-48 pt-10 md:pt-0 md:pb-5 px-10 md:gap-5 gap-10 md:m-10">
                     <div>
                         <a href="/jeux">
                         <img src="/animal_crossing_new_leaf.png" className="transition-transform ease-in-out hover:scale-110 rounded-full md:h-[350px] md:w-[350px] h-[300px] w-[300px]"/>
