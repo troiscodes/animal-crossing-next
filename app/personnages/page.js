@@ -9,7 +9,7 @@ export default function Home(){
         <div className="h-[465px] w-full flex justify-center items-center container">
         <div className="h-[400px] flex flex-row justify-start gap-10">
         <div className="flex items-center">
-            <div className="h-[365px] w-[260px]"><img src="Tom_Nook_card.png" alt="Tom Nook card" className="h-[365px] w-[260px] rounded-2xl drop-shadow-xl"></img></div>
+            <div className="h-[365px] w-[260px]" id="tom-nook"><img src="Tom_Nook_card.png" alt="Tom Nook card" className="h-[365px] w-[260px] rounded-2xl drop-shadow-xl"></img></div>
             </div>
             <div className="flex items-center">
               <div className="backdrop-blur-sm w-[703px] h-[329px] rounded-3xl drop-shadow-3xl">
@@ -39,7 +39,7 @@ export default function Home(){
         <div className="h-[465px] w-full flex justify-center items-center container">
         <div className="h-[400px] flex flex-row justify-start gap-10">
         <div className="flex items-center">
-            <div className="h-[365px] w-[260px]"><img src="Freres_Nook_card.png" alt="Freres Nook card" className="h-[365px] w-[260px] rounded-2xl drop-shadow-xl"></img></div>
+            <div className="h-[365px] w-[260px]" id="frères-nook"><img src="Freres_Nook_card.png" alt="Freres Nook card" className="h-[365px] w-[260px] rounded-2xl drop-shadow-xl"></img></div>
             </div>
             <div className="flex items-center">
               <div className="backdrop-blur-sm w-[703px] h-[329px] rounded-3xl drop-shadow-3xl">
@@ -69,7 +69,7 @@ export default function Home(){
         <div className="h-[465px] w-full flex justify-center items-center container">
         <div className="h-[400px] flex flex-row justify-start gap-10">
         <div className="flex items-center">
-            <div className="h-[365px] w-[260px]"><img src="Thibou_card.png" alt="Thibou card" className="h-[365px] w-[260px] rounded-2xl drop-shadow-xl"></img></div>
+            <div className="h-[365px] w-[260px]" id="thibou"><img src="Thibou_card.png" alt="Thibou card" className="h-[365px] w-[260px] rounded-2xl drop-shadow-xl"></img></div>
             </div>
             <div className="flex items-center">
               <div className="backdrop-blur-sm w-[703px] h-[329px] rounded-3xl drop-shadow-3xl">
@@ -99,7 +99,7 @@ export default function Home(){
             <div className="h-[465px] w-full flex justify-center items-center container">
         <div className="h-[400px] flex flex-row justify-start gap-10">
         <div className="flex items-center">
-            <div className="h-[365px] w-[260px]"><img src="Rounard_card.png" alt="Rounard card" className="h-[365px] w-[260px] rounded-2xl drop-shadow-xl"></img></div>
+            <div className="h-[365px] w-[260px]" id="rounard"><img src="Rounard_card.png" alt="Rounard card" className="h-[365px] w-[260px] rounded-2xl drop-shadow-xl"></img></div>
             </div>
             <div className="flex items-center">
               <div className="backdrop-blur-sm w-[703px] h-[329px] rounded-3xl drop-shadow-3xl">
@@ -130,7 +130,7 @@ export default function Home(){
         <div className="h-[465px] w-full flex justify-center items-center container">
         <div className="h-[400px] flex flex-row justify-start gap-10">
         <div className="flex items-center">
-            <div className="h-[365px] w-[260px]"><img src="Layette_card.png" alt="Layette card" className="h-[365px] w-[260px] rounded-2xl drop-shadow-xl"></img></div>
+            <div className="h-[365px] w-[260px]" id="layette"><img src="Layette_card.png" alt="Layette card" className="h-[365px] w-[260px] rounded-2xl drop-shadow-xl"></img></div>
             </div>
             <div className="flex items-center">
               <div className="backdrop-blur-sm w-[703px] h-[329px] rounded-3xl drop-shadow-3xl">
@@ -160,7 +160,7 @@ export default function Home(){
         <div className="h-[465px] w-full flex justify-center items-center container">
         <div className="h-[400px] flex flex-row justify-start gap-10">
         <div className="flex items-center">
-            <div className="h-[365px] w-[260px]"><img src="Porcelette_card.jpg" alt="Porcelette card" className="h-[365px] w-[260px] rounded-2xl drop-shadow-xl"></img></div>
+            <div className="h-[365px] w-[260px]" id="porcelette"><img src="Porcelette_card.jpg" alt="Porcelette card" className="h-[365px] w-[260px] rounded-2xl drop-shadow-xl"></img></div>
             </div>
             <div className="flex items-center">
               <div className="backdrop-blur-sm w-[703px] h-[329px] rounded-3xl drop-shadow-3xl">
@@ -190,7 +190,7 @@ export default function Home(){
         <div className="h-[465px] w-full flex justify-center items-center container">
         <div className="h-[400px] flex flex-row justify-start gap-10">
         <div className="flex items-center">
-            <div className="h-[365px] w-[260px]"><img src="KK_card.jpg" alt="KK card" className="h-[365px] w-[260px] rounded-2xl drop-shadow-xl"></img></div>
+            <div className="h-[365px] w-[260px]" id="kéké"><img src="KK_card.jpg" alt="KK card" className="h-[365px] w-[260px] rounded-2xl drop-shadow-xl"></img></div>
             </div>
             <div className="flex items-center">
               <div className="backdrop-blur-sm w-[703px] h-[329px] rounded-3xl drop-shadow-3xl">
@@ -220,7 +220,7 @@ export default function Home(){
         <div className="h-[465px] w-full flex justify-center items-center container">
         <div className="h-[400px] flex flex-row justify-start gap-10">
         <div className="flex items-center">
-            <div className="h-[365px] w-[260px]"><img src="Marie_card.png" alt="Marie card" className="h-[365px] w-[260px] rounded-2xl drop-shadow-xl"></img></div>
+            <div className="h-[365px] w-[260px]" id="marie"><img src="Marie_card.png" alt="Marie card" className="h-[365px] w-[260px] rounded-2xl drop-shadow-xl"></img></div>
             </div>
             <div className="flex items-center">
               <div className="backdrop-blur-sm w-[703px] h-[329px] rounded-3xl drop-shadow-3xl">
