@@ -7,8 +7,8 @@ export default function Footer(){
                 <a href="/">
                 <div className="w-[308px]"><img className="w-[160px] h-[160px] flex justify-self-start hover:opacity-80" src="logo-ac.png" alt="logo Animal Crossing feuille"/></div>
                 </a>
-                <div className="w-auto"><h1 className="text-white text-[40px]">Animal Crossing</h1></div>
-            <h2 className="text-white flex self-end justify-self-end w-[308px]">créé par Clément SIMON et Ange TARDY</h2>
+                <div className="w-auto"><h1 className="text-white text-[40px] font-fink-heavy">Animal Crossing</h1></div>
+            <h2 className="text-white flex self-end justify-self-end font-fink-heavy">créé par Clément SIMON et Ange TARDY</h2>
             </div>
         </footer>
     )
