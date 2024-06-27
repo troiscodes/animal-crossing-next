@@ -9,7 +9,7 @@ export default function Home(){
             <div style={{ backgroundImage: "url('/fond-games.png')" }}>
             <section className="flex items-center md:pt-16" id="gamecube">
                 <div className="md:flex items-center">
-                <div><img src="/jeu-gamecube.png" className="pt-12 pl-7 pb-6 container flex justify-center" ></img></div>
+                <div><img src="/jeu-gamecube.png" className="pt-20 pl-7 pb-6 container flex justify-center" ></img></div>
                 <div className="relative text-2xl ml-6 mr-6 pt-4 pl-6 pr-6 flex md:w-full md:min-h-[357px] rounded-3xl" style={{ backgroundColor: 'rgba(111, 238, 40, 0.3)' }}>
                     <div className="grid md:grid-cols-7">
                         <div className="relative md:col-span-5 flex items-center pb-4">
