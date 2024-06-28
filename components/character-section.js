@@ -4,18 +4,20 @@ export default function CharacterSection({
   backgroundImage,
   backgroundImageH,
   characterCard,
-  text_D,
-  text_F,
-  text_C,
+  idCard,
+  textD,
+  textF,
+  textC,
   Illustration,
   backgroundColor,
 }) {
   console.log("backgroundImage", backgroundImage);
   console.log("backgroundImageH", backgroundImageH);
   console.log("characterCard", characterCard);
-  console.log("text_D", text_D);
-  console.log("text_F", text_F);
-  console.log("text_C", text_C);
+  console.log("idCard", idCard);
+  console.log("text_D", textD);
+  console.log("text_F", textF);
+  console.log("text_C", textC);
   console.log("Illustration", Illustration);
   console.log("backgroundColor", backgroundColor);
   const backgroundColorClass = `bg-[${backgroundColor}]`;
@@ -36,8 +38,8 @@ export default function CharacterSection({
       />
 
       <div className="md:min-h-[465px] w-full flex md:flex-row flex-col justify-center items-center container p-14 md:p-0">
-        <div className="flex items-center justify-center md:pr-5 pb-14">
-          <div className="h-[365px] w-full">
+        <div className="flex items-center justify-center md:pr-5 pb-14 md:pb-0">
+          <div className="h-[365px] w-full" id={idCard}>
             <img
               src={characterCard}
               alt="character card"
@@ -62,7 +64,7 @@ export default function CharacterSection({
                   Description :
                 </div>
                 <div className="opacity-100 text-black font-fink-heavy">
-                  {text_D}
+                  {textD}
                 </div>
                 <div
                   className="opacity-100 text-black font-fink-heavy underline decoration-solid"
@@ -71,7 +73,7 @@ export default function CharacterSection({
                   Fonction :
                 </div>
                 <div className="opacity-100 text-black font-fink-heavy">
-                  {text_F}
+                  {textF}
                 </div>
                 <div
                   className="opacity-100 text-black font-fink-heavy underline decoration-solid"
@@ -80,14 +82,14 @@ export default function CharacterSection({
                   Ce qu’il nous apprend :
                 </div>
                 <div className="opacity-100 text-black font-fink-heavy">
-                  {text_C}
+                  {textC}
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div className="flex md:self-end md:pb-12">
-          <div className="flex items-end h-[180px] w-[180px] drop-shadow-xl ml-5">
+          <div className="flex items-end h-[180px] w-[180px] drop-shadow-xl md:ml-5">
             <img
               src={Illustration}
               alt="illustration"

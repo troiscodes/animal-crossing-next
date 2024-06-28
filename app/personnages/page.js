@@ -8,13 +8,14 @@ export default function Home() {
         backgroundImage={"/background_leaf.png"}
         backgroundImageH={"/background_leaf_h.png"}
         characterCard={"/Tom_Nook_card.png"}
-        text_D={
+        idCard={"Tom_Nook"}
+        textD={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
-        text_F={
+        textF={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
-        text_C={
+        textC={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
         Illustration={"/maison.png"}
@@ -24,13 +25,14 @@ export default function Home() {
         backgroundImage={"/background_green.png"}
         backgroundImageH={"/background_green_h.png"}
         characterCard={"/Freres_Nook_card.png"}
-        text_D={
+        idCard={"Freres_Nook"}
+        textD={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
-        text_F={
+        textF={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
-        text_C={
+        textC={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
         Illustration={"/boutique_nook.png"}
@@ -41,13 +43,14 @@ export default function Home() {
         backgroundImage={"/background_orange.png"}
         backgroundImageH={"/background_orange_h.png"}
         characterCard={"/Thibou_card.png"}
-        text_D={
+        idCard={"Thibou"}
+        textD={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
-        text_F={
+        textF={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
-        text_C={
+        textC={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
         Illustration={"/musée.png"}
@@ -57,13 +60,14 @@ export default function Home() {
         backgroundImage={"/background_magenta.png"}
         backgroundImageH={"/background_magenta_h.png"}
         characterCard={"/Rounard_card.png"}
-        text_D={
+        idCard={"Rounard"}
+        textD={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
-        text_F={
+        textF={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
-        text_C={
+        textC={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
         Illustration={"/bateau_rounard.png"}
@@ -74,13 +78,14 @@ export default function Home() {
         backgroundImage={"/background_leaf.png"}
         backgroundImageH={"/background_leaf_h.png"}
         characterCard={"/Layette_card.png"}
-        text_D={
+        idCard={"Layette"}
+        textD={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
-        text_F={
+        textF={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
-        text_C={
+        textC={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
         Illustration={"/boutique.png"}
@@ -91,13 +96,14 @@ export default function Home() {
         backgroundImage={"/background_green.png"}
         backgroundImageH={"/background_green_h.png"}
         characterCard={"/Porcelette_card.jpg"}
-        text_D={
+        idCard={"Porcelette"}
+        textD={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
-        text_F={
+        textF={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
-        text_C={
+        textC={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
         Illustration={"/navet.png"}
@@ -108,13 +114,14 @@ export default function Home() {
         backgroundImage={"/background_orange.png"}
         backgroundImageH={"/background_orange_h.png"}
         characterCard={"/KK_card.jpg"}
-        text_D={
+        idCard={"KK"}
+        textD={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
-        text_F={
+        textF={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
-        text_C={
+        textC={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
         Illustration={"/KK.png"}
@@ -125,13 +132,14 @@ export default function Home() {
         backgroundImage={"/background_magenta.png"}
         backgroundImageH={"/background_magenta_h.png"}
         characterCard={"/Marie_card.png"}
-        text_D={
+        idCard={"Marie"}
+        textD={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
-        text_F={
+        textF={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
-        text_C={
+        textC={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
         Illustration={"/bureau_maire.png"}
