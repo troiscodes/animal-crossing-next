@@ -12,7 +12,7 @@ export default function Home() {
               <img
                 src="/jeu-gamecube.png"
                 className="pt-20 pl-7 pb-6 container flex justify-center"
-              ></img>
+              />
             </div>
             <div
               className="relative text-2xl ml-6 mr-6 pt-4 pl-6 pr-6 flex md:w-full md:min-h-[357px] rounded-3xl"
@@ -44,7 +44,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="flex items-center md:pt-16" id="gamecube">
+        <section className="flex items-center md:pt-16" id="ds">
           <div className="md:flex items-center">
             <div>
               <img
@@ -82,7 +82,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="flex items-center md:pt-16" id="gamecube">
+        <section className="flex items-center md:pt-16" id="wii">
           <div className="md:flex items-center">
             <div>
               <img
@@ -120,7 +120,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="flex items-center md:pt-16" id="gamecube">
+        <section className="flex items-center md:pt-16" id="3ds">
           <div className="md:flex items-center">
             <div>
               <img
@@ -158,7 +158,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="flex items-center md:pt-16" id="gamecube">
+        <section className="flex items-center md:pt-16" id="switch">
           <div className="md:flex items-center">
             <div>
               <img
