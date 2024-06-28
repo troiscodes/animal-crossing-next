@@ -20,8 +20,6 @@ export default function CharacterSection({
   console.log("text_C", textC);
   console.log("Illustration", Illustration);
   console.log("backgroundColor", backgroundColor);
-  const backgroundColorClass = `bg-[${backgroundColor}]`;
-  console.log("backgroundColorClass", backgroundColorClass);
   return (
     <div className="bg-cover bg-center min-h-[465px] w-full relative ">
       <Image
@@ -53,7 +51,7 @@ export default function CharacterSection({
             <div
               className={
                 "flex items-center  md:min-w-[703px] md:h-[329px] h-[500px] rounded-3xl bg-opacity-30 " +
-                backgroundColorClass
+                backgroundColor
               }
             >
               <div className="p-5 md:min-w-[703px] h-[329px] rounded-3xl flex items-start flex-col justify-center text-start text-[20px] drop-shadow-xl">

@@ -19,7 +19,7 @@ export default function Home() {
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
         Illustration={"/maison.png"}
-        backgroundColor={"#73EED4"}
+        backgroundColor={"bg-[#73EED4]"}
       />
       <CharacterSection
         backgroundImage={"/background_green.png"}
@@ -36,7 +36,7 @@ export default function Home() {
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
         Illustration={"/boutique_nook.png"}
-        backgroundColor={"#9AB536"}
+        backgroundColor={"bg-[#9AB536]"}
       />
 
       <CharacterSection
@@ -54,7 +54,7 @@ export default function Home() {
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
         Illustration={"/musée.png"}
-        backgroundColor={"#FDB30F"}
+        backgroundColor={"bg-[#FDB30F]"}
       />
       <CharacterSection
         backgroundImage={"/background_magenta.png"}
@@ -71,7 +71,7 @@ export default function Home() {
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
         Illustration={"/bateau_rounard.png"}
-        backgroundColor={"#B4447C"}
+        backgroundColor={"bg-[#B4447C]"}
       />
 
       <CharacterSection
@@ -89,7 +89,7 @@ export default function Home() {
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
         Illustration={"/boutique.png"}
-        backgroundColor={"#73EED4"}
+        backgroundColor={"bg-[#73EED4]"}
       />
 
       <CharacterSection
@@ -107,7 +107,7 @@ export default function Home() {
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
         Illustration={"/navet.png"}
-        backgroundColor={"#9AB536"}
+        backgroundColor={"bg-[#9AB536]"}
       />
 
       <CharacterSection
@@ -125,7 +125,7 @@ export default function Home() {
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
         Illustration={"/KK.png"}
-        backgroundColor={"#FDB30F"}
+        backgroundColor={"bg-[#FDB30F]"}
       />
 
       <CharacterSection
@@ -143,7 +143,7 @@ export default function Home() {
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
         Illustration={"/bureau_maire.png"}
-        backgroundColor={"#B4447C"}
+        backgroundColor={"bg-[#B4447C]"}
       />
     </main>
   );
