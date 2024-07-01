@@ -124,7 +124,7 @@ export default function Home() {
         textC={
           "Primi igitur omnium statuuntur Epigonus et Eusebius ob nominum gentilitatem oppressi."
         }
-        Illustration={"/KK.png"}
+        Illustration={"/KK.jpg"}
         backgroundColor={"bg-[#FDB30F]"}
       />
 
