@@ -6,7 +6,6 @@ export default function GamesSection({
   texteJeux,
   idJeux,
   hImage,
-  padding,
 }) {
   console.log("boiteJeux", boiteJeux);
   console.log("imageJeux", imageJeux);
