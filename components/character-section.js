@@ -8,7 +8,7 @@ export default function CharacterSection(
 
   const backgroundWURL = character.personnage.fondW?.node?.sourceUrl;
   const backgroundHURL = character.personnage.fondH?.node?.sourceUrl;
-  const characterId = character.characterId;
+  const title = character.title;
   const characterCard = character.personnage.cartePersonnage.node.sourceUrl;
   const description = character.personnage.description;
   const apprendreIRL = character.personnage.apprendreIRL;
@@ -35,7 +35,7 @@ export default function CharacterSection(
         </div>
         <div className="md:min-h-[465px] w-full flex md:flex-row flex-col justify-center items-center container p-14 md:p-0">
           <div className="flex items-center justify-center md:pr-5 pb-14 md:pb-0">
-            <div className="h-[365px] w-full" id={characterId}>
+            <div className="h-[365px] w-full" id={title}>
               <img
                 src={characterCard}
                 alt="character card"
