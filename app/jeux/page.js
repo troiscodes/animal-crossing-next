@@ -1,5 +1,5 @@
-// import Games from "@/components/games";
-// import GamesSection from "@/components/games-section";
+import Image from "next/image";
+import GamesSection from "/components/games-section";
 
 export default async function Home() {
 
@@ -7,25 +7,32 @@ export default async function Home() {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
-      query: `MyQuery2 {
-     games(first: 10) {
-    nodes {
-      id
-      title
-      jeu {
-        anneeSortie
-        console
-        description
-        dansLeJeu {
-          node {
-            id
-            sourceUrl
-          }
-        }
-        jaquetteJeu {
-          node {
-            id
-            sourceUrl
+      query: `query NewQuery {
+  optionPage {
+    siteSettings {
+      games {
+        nodes {
+          ... on Game {
+            gameId
+            jeu {
+              console
+              description
+              imageHeight
+              imageWidth
+              releaseYear
+              jaquetteJeu {
+                node {
+                  id
+                  sourceUrl
+                }
+              }
+              dansLeJeu {
+                node {
+                  id
+                  sourceUrl
+                }
+              }
+            }
           }
         }
       }
@@ -36,33 +43,37 @@ export default async function Home() {
   });
 
   const { data } = await response.json();
-  const games = data.games?.nodes;
+  console.log('data', data);
+
+  const games = data.optionPage.siteSettings.games.nodes;
 
   console.log("games", games);
 
   return (
     <main className=" md: min-h-full w-full font-fink-heavy bg-[url('/fond-games.png')] ">
 
-      {games && games.map((game) => {
+      {games && games.map((game, index) => {
 
-        const gameId = games.node.gameId;
-        const jaquetteJeu = games.node.jeu.jaquetteJeu.node.sourceUrl;
-        const anneeSortie = games.node.jeu.anneeSortie;
-        const console = games.node.jeu.console;
-        const description = games.node.jeu.description;
-        const dansLeJeu = games.node.jeu.dansLeJeu.node.sourceUrl;
+        const jaquetteJeu = (game.jeu && game.jeu.jaquetteJeu.node) && game.jeu.jaquetteJeu.node
+        const gameFeaturedImage = jaquetteJeu ? jaquetteJeu.sourceUrl : null
 
 
-        console.log("gameId", gameId);
-        console.log("jaquetteJeu", jaquetteJeu);
-        console.log("anneeSortie", anneeSortie);
-        console.log("console", console);
-        console.log("description", description);
-        console.log("dansLeJeu", dansLeJeu);
+        // console.log("gameId", gameId);
+        // console.log("jaquetteJeu", jaquetteJeu);
+        // console.log("anneeSortie", anneeSortie);
+        // console.log("console", console);
+        // console.log("description", description);
+        // console.log("dansLeJeu", dansLeJeu);
 
         return (
           <>
-            <div key={games.node.gameId}></div>
+
+            <GamesSection
+              key={games.id}
+              game={game}
+            />
+
+            {/* <div key={games.node.gameId}></div>
             <section
               className={"flex items-center md:pt-16 md:pr-5 container"}
               id={gameId}
@@ -92,7 +103,7 @@ export default async function Home() {
                   </div>
                 </div>
               </div>
-            </section>
+            </section> */}
           </>
         )
 
